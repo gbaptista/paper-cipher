@@ -19,7 +19,7 @@ rake test
 ```ruby
 # encrypt(text, password, format: 'latin')
 PaperCipher.encrypt('RUA C', 2) # => 'TWC E'
-PaperCipher.encrypt('RUA C', 456, format: 'hangul') # => 'ㅒㅜㅅ ㄴ''
+PaperCipher.encrypt('RUA C', 456, format: 'hangul') # => 'ㅒㅜㅅ ㄴ'
 
 # decrypt(text, password, format: 'latin')
 PaperCipher.decrypt('TWC E', 2) # => 'RUA C'
